@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 * main - This is a description
+* return 0
 */
 int main(void)
 {
