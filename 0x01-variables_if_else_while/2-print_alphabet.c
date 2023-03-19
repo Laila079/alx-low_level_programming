@@ -9,11 +9,9 @@ int main(void)
 
 int letter = 'a';
 
-while(letter <= 'z') 
-{
-putchar(letter);
-letter +=1 ;
-}
+while (letter <= 'z') 
+{putchar(letter);
+letter +=1 ;}
 putchar ('\n');
 return (0);
 }
