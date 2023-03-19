@@ -11,9 +11,9 @@ int letter = 'a';
 
 while (letter <= 'z') 
 {
-putchar(letter)\n;
+putchar(letter);
 letter +=1;
 }
-
+putchr ("\n");
 return (0);
 }
