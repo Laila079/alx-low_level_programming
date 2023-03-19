@@ -14,6 +14,6 @@ while (letter <= 'z')
 putchar(letter);
 letter +=1;
 }
-putchr ("\n");
+putchar ('\n');
 return (0);
 }
