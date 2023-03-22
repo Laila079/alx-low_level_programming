@@ -1,6 +1,4 @@
 #include "main.h"
-
-#include "holberton.h"
 /**
  * print_sign - prints the sign of a number
  * @n: number
