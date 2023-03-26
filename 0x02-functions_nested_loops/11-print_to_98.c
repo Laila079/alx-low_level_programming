@@ -12,13 +12,14 @@ int i;
 if (n < 98)
 for (i = n; i <= 98; i++)
 
-printf("%i, ", i);
+printf("%d", i);
+printf(", ");
 
 else
 for (i = n; i > 98; i--)
 
-printf("%i, ", i);
-
+printf("%d", i);
+printf(", ");
 
 printf("98\n");
 }
