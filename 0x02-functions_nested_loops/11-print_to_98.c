@@ -2,7 +2,7 @@
 /**
 * print_to_98 - function prints all natural numbers from n to 98
 * @n: number input
-* Return: result of addition of 2numbers
+* Return: nothing
 */
 
 void print_to_98(int n)
