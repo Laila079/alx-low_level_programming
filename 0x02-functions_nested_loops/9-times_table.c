@@ -20,6 +20,7 @@ else
 _putchar((i * j) / 10 + 48);
 _putchar((i * j) % 10 + 48);
 }
+_putchar('$');
 _putchar('\n');
 }
 }
