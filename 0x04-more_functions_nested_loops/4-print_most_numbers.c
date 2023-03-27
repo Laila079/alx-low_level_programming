@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_numbers - writes numbers from 0 to 9 without 2 and 4
+* pprint_most_numbers - writes numbers from 0 to 9 without 2 and 4
 * Return: nothing
 */
 
