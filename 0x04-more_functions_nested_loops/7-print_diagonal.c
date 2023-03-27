@@ -6,7 +6,6 @@
 * Return: nothing
 */
 
-
 void print_diagonal(int n)
 {
 int i, j;
