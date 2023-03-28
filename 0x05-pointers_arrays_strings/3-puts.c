@@ -10,5 +10,10 @@
 
 void _puts(char *str)
 {
-printf("%s", str);
+while (*str != '0')
+{
+_putchar(*str + 0);
+str++;
+}
+_putchar ('\n');
 }
