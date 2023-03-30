@@ -10,7 +10,11 @@
  */
 char *_strcat(char *dest, char *src)
 {
-char *result;
-result = src, dest;
-return (result);
+int count, i;
+count = 0;
+while (dest[count])
+count++;
+for (i = 0; src[i]; i++)
+dest[count++] = src[i];
+return (dest);
 }
