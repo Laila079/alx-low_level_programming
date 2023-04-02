@@ -6,7 +6,7 @@
  * _strcmp - compares 2 strings
  * @s1: first string to compare
  * @s2: 2nd string given
- * return: if the strings are equal, the function returns 0.
+ * return: the difference between s1 and s2.
  */
 
 
