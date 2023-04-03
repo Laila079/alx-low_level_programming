@@ -6,7 +6,7 @@
 /**
  * cap_string - capitalizes all words of a string.
  * @str: string input
- * return: str changed
+ * return: char str changed with uppercase letters
  */
 
 char *cap_string(char *str)
