@@ -10,6 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	printf("mynameis %s\n", argv[0]);
+	printf("mynameis %s\n", *argv);
+	(void)argc;
 	return (0);
 }
