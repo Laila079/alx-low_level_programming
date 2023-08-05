@@ -17,7 +17,12 @@ if (argc < 3 || argc > 3)
 	return (1);
 }
 
-printf("%d\n", (_atoi(argv[1]) * _atoi(argv[2])));
+int i;
+int j;
 
-return (0);
+i = _atoi(argv[1]);
+j = _atoi(argv[1]);
+
+	printf("%d\n", i * j);
+	return (0);
 }
