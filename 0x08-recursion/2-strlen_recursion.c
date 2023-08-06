@@ -11,19 +11,12 @@
 int _strlen_recursion(char *s)
 {
 
-int count;
-count = 0;
-
 if (*s == '\0')
 {
-return (count);
+return (0);
 }
 
-count++;
-_strlen_recursion(s);
-count += 1;
-
-printf ("%d\n", count);
+s++;
+return (_strlen_recursion(s) + 1);
 
 }
-
