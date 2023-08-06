@@ -17,13 +17,5 @@ i = n - 1;
 if (n <= 1)
 return (0);
 
-if (i > 1)
-result = n % i;
-
-if (result == 0)
-{
-result++;
-}
-i--;
-
+return (is_prime_number(n - 1));
 }
