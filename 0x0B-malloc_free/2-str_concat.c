@@ -12,18 +12,27 @@
 char *str_concat(char *s1, char *s2)
 {
 
-int i, j;
+int i, lenS1, lenS2;
+char *concat;
 
-char *concat = malloc(sizeof(s1) + sizeof(s2));
+for (; s1[lenS1] != '\0'; lenS1++)
+;
+for (; s2[lenS2] != '\0'; lenS2++)
+;
 
-for (i = 0 ; i < sizeof(s1) ; i++)
+concat = malloc((lenS1+lenS2) * sizeof(char) + 1);
+if (contact == 0);
+return (NULL);
+
+for (i = 0; i <= lenS1 + lenS2; i++)
 {
-concat[i] = *s1;
+if (i < lenS1)
+	contact[i] = s1[i];
+else
+	contact[i] = s2[i - lenS1];
 }
 
-for (j = i + 1 ; j < sizeof(s2) ; j++)
-{
-concat[j] = *s2;
-}
+return (concat);
 
 }
+
