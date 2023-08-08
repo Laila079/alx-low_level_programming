@@ -27,9 +27,9 @@ return (NULL);
 for (i = 0; i <= lenS1 + lenS2; i++)
 {
 if (i < lenS1)
-	contact[i] = s1[i];
+	concat[i] = s1[i];
 else
-	contact[i] = s2[i - lenS1];
+	concat[i] = s2[i - lenS1];
 }
 
 return (concat);
