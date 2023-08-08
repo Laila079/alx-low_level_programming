@@ -1,10 +1,13 @@
+#include<stdio.h>
+#include<stdlib>
+#include "main.h"
+
 /**
 * *create_array - create an array
 * @size: size of the array to create
 * @c: char to initialize
 * Return: pointer to the array if not empty
 */
-
 
 char *create_array(unsigned int size, char c)
 {
