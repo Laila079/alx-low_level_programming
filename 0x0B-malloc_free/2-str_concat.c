@@ -22,8 +22,9 @@ for (; s2[lenS2] != '\0'; lenS2++)
 
 concat = malloc((lenS1+lenS2) * sizeof(char) + 1);
 if (concat == 0);
-return (NULL);
-
+{
+	return (NULL);
+}
 for (i = 0; i <= lenS1 + lenS2; i++)
 {
 if (i < lenS1)
