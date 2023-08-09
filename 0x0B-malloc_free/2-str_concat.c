@@ -35,5 +35,7 @@ else
 
 return (concat);
 
+free(concat);
+
 }
 
