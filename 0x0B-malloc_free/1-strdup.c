@@ -18,7 +18,7 @@ if (str == NULL)
 {
 	return (NULL);
 }
-While(str[size] != '\0')
+while(str[size] != '\0')
 {
 	size++;
 }
