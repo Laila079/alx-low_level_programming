@@ -14,16 +14,20 @@ char *_strdup(char *str)
 char *m;
 int i = 0, size = 0;
 
-if (str == NUL)
-	return (NUL);
-
+if (str == NULL)
+{
+	return (NULL);
+}
 While(str[size] != '\0')
-size++;
-
+{
+	size++;
+}
 m = malloc(size * (sizeof(char) + 1));
 
 if (m == 0)
+{
 	return (NULL);
+}
 else
 {
 	for (i = 0; str[i]; i++)
