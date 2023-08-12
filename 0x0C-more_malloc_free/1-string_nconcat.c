@@ -22,17 +22,19 @@ if (s2[i] != '\0')
 size++;
 }
 
-p = malloc((sizeof(s1) * char)+size);
+p = malloc((sizeof(s1) * char)+size + 1);
+
+if (!p)
+return (NULL);
 
 for (i = 0; i != '\0'; i++)
-
-	p[i] = s1;
+p[i] = s1;
 
 for (j = 1; j < n; j++)
+{
+p[i + j] = s2;
+p[i + j] = '\0';
+}
 
-	p[i + j] = s2;
-
-
-return (*p);
-
+return (p);
 }
