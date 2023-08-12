@@ -18,7 +18,7 @@ return (NULL);
 int *p = malloc(sizeof(int) * ((max - min) + 1));
 int i;
 
-if (!p)
+if (p == 0)
 return (NULL);
 
 for (i = 0; i <= max; i++)
