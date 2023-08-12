@@ -16,8 +16,8 @@ if (nmemb == 0 || size == 0)
 
 return (NULL);
 
+char *p = malloc(nmemb * size);
 unsigned int i;
-int *p = malloc(sizeof(char) * size);
 
 for (i = 0; i <= nmemb; i++)
 	p[i] = 0;
